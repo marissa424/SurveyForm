@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(21,67,96);
+    color: white;
+    font-family: arial;
+  
+  }
+  h1, p {
+    text-align: center;
+  }
+  fieldset {
+    border: none;
+  }
