@@ -15,6 +15,11 @@
             <p id="description" class="decscription text-center">Thank you for taking the time to help us improve the
                 platform
             </p>
+            <style>
+                body {
+                    background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+                }
+            </style>
         </header>
         <form id="survey-form">
             <div class="form-group">
@@ -61,7 +66,7 @@
             <div class="form-group">
                 <p>What is your favorite feature of freeCodeCamp?</p>
                 <select id="most-like" name="most-like" class="form-control" required>
-                    <option disabled selected value>Select an option</option>
+                    <option value="select-an-optioin">Select an option</option>
                     <option value="challenges">Challenges</option>
                     <option value="projects">Projects</option>
                     <option value="community">Community</option>
@@ -73,7 +78,7 @@
                     <span class="clue">(Check all that apply)</span>
                 </p>
                 <label>
-                    <input name="prefer" vlaue="front-end-projects" type="checkbox" class="input-checkbox">
+                    <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
                     Front-end Projects
                 </label>
                 <label>
@@ -129,4 +134,5 @@
         </form>
     </div>
 </body>
+
 </html>
